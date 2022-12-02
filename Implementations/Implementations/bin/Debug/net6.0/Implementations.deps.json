@@ -10,7 +10,8 @@
         "dependencies": {
           "BussinessLayer": "1.0.0",
           "DataLayer": "1.0.0",
-          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2"
+          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2",
+          "MyDataStructures": "1.0.0"
         },
         "runtime": {
           "Implementations.dll": {}
@@ -467,15 +468,26 @@
       },
       "BussinessLayer/1.0.0": {
         "dependencies": {
-          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2"
+          "DataLayer": "1.0.0",
+          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2",
+          "MyDataStructures": "1.0.0"
         },
         "runtime": {
           "BussinessLayer.dll": {}
         }
       },
       "DataLayer/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2",
+          "MyDataStructures": "1.0.0"
+        },
         "runtime": {
           "DataLayer.dll": {}
+        }
+      },
+      "MyDataStructures/1.0.0": {
+        "runtime": {
+          "MyDataStructures.dll": {}
         }
       }
     }
@@ -828,6 +840,11 @@
       "sha512": ""
     },
     "DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyDataStructures/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

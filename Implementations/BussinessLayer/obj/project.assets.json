@@ -831,6 +831,30 @@
             "rid": "win"
           }
         }
+      },
+      "DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2",
+          "MyDataStructures": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataLayer.dll": {}
+        }
+      },
+      "MyDataStructures/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyDataStructures.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyDataStructures.dll": {}
+        }
       }
     }
   },
@@ -2602,11 +2626,23 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataLayer/DataLayer.csproj",
+      "msbuildProject": "../DataLayer/DataLayer.csproj"
+    },
+    "MyDataStructures/1.0.0": {
+      "type": "project",
+      "path": "../MyDataStructures/MyDataStructures.csproj",
+      "msbuildProject": "../MyDataStructures/MyDataStructures.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Data.SqlClient >= 5.1.0-preview2.22314.2"
+      "DataLayer >= 1.0.0",
+      "Microsoft.Data.SqlClient >= 5.1.0-preview2.22314.2",
+      "MyDataStructures >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2616,11 +2652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vojta\\Documents\\škola\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
       "projectName": "BussinessLayer",
-      "projectPath": "C:\\Users\\vojta\\Documents\\škola\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
+      "projectPath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
       "packagesPath": "C:\\Users\\vojta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vojta\\Documents\\škola\\VIS\\Implementations\\BussinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\BussinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2640,7 +2676,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\DataLayer\\DataLayer.csproj"
+            },
+            "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\MyDataStructures\\MyDataStructures.csproj": {
+              "projectPath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\MyDataStructures\\MyDataStructures.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

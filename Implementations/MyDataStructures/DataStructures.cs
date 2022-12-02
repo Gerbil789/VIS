@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BussinessLayer
+namespace MyDataStructures
 {
     public class Actor
     {
-        public string first_name;
-        public string last_name;
+        public int actor_id;
+        public string first_name = "";
+        public string last_name = "";
     }
 }

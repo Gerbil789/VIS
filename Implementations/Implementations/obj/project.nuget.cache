@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a4FiTAJMJ/a3howk4S3zLVIH7Pd/xrpqaGLO15EUfHRJe4Hbab+IWUnuP8vInKcjfmEPjeEv52QJgVP+45/Myw==",
+  "dgSpecHash": "VvS552hYODucxNf9gdU546JtvPT6XXGYi5RIFRauDr1dHgtbINpiESDf8pS/ABDzDb25sJ9PKFMqQjH2AdHsvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vojta\\Documents\\škola\\VIS\\Implementations\\Implementations\\Implementations.csproj",
+  "projectFilePath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\Implementations\\Implementations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vojta\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vojta\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

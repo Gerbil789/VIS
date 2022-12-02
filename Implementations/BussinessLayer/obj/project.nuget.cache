@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2MagiOWizSJkgJ5Wy8udSuOkFhT4R6lO1MXlV+LSV1/GuGQ7U5JLW0yxBzuzKRMolrLu2ljYumJ818yIzZ1iUQ==",
+  "dgSpecHash": "jzXndSOEjxZ+hWqXx0IGEcetw0Y7IX3CfknWv3qyVNrpWqABJuF4hM9AdF0BurzTOrf/bcenYECiRAV5pcEIQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vojta\\Documents\\škola\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\vojta\\Documents\\GitHub\\VIS\\Implementations\\BussinessLayer\\BussinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vojta\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vojta\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
