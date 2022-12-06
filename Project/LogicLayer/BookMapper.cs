@@ -25,6 +25,29 @@ namespace LogicLayer
             pool[id] = book;
         }
 
+        public static void BorrowBook(Book book)
+        {
+            int id = book.id;
+            if (!pool.ContainsKey(id))
+            {
+                return;
+            }
+
+            DataGateway.BorrowBook(book);
+        }
+
+        public static void ReturnBook(Book book)
+        {
+            int id = book.id;
+            if (!pool.ContainsKey(id))
+            {
+                return;
+            }
+
+            DataGateway.ReturnBook(book);
+        }
+
+
         public static bool RemoveBook(int id)
         {
             if (!pool.ContainsKey(id))

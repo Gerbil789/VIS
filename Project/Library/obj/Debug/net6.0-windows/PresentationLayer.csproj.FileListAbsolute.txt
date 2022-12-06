@@ -28,3 +28,7 @@ C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\Pre
 C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\ref\PresentationLayer.dll
 C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.Properties.Resources.resources
 C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.BookUI.resources
+C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.UI_elements.UC_books.resources
+C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.UI_elements.UC_customers.resources
+C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.CustomerUI.resources
+C:\Users\vojta\Documents\GitHub\VIS\Project\Library\obj\Debug\net6.0-windows\PresentationLayer.UI_elements.BorrowedBookUI.resources

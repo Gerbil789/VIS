@@ -37,6 +37,7 @@
             this.label_language = new System.Windows.Forms.Label();
             this.label_borrowed = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label_id = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picture_icon)).BeginInit();
             this.panel_icon_bg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,7 +77,7 @@
             // 
             this.label_author.AutoSize = true;
             this.label_author.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_author.Location = new System.Drawing.Point(170, 39);
+            this.label_author.Location = new System.Drawing.Point(170, 58);
             this.label_author.Name = "label_author";
             this.label_author.Size = new System.Drawing.Size(50, 19);
             this.label_author.TabIndex = 4;
@@ -86,7 +87,7 @@
             // 
             this.label_genre.AutoSize = true;
             this.label_genre.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_genre.Location = new System.Drawing.Point(170, 58);
+            this.label_genre.Location = new System.Drawing.Point(170, 77);
             this.label_genre.Name = "label_genre";
             this.label_genre.Size = new System.Drawing.Size(44, 19);
             this.label_genre.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             this.label_language.AutoSize = true;
             this.label_language.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_language.Location = new System.Drawing.Point(170, 77);
+            this.label_language.Location = new System.Drawing.Point(170, 96);
             this.label_language.Name = "label_language";
             this.label_language.Size = new System.Drawing.Size(65, 19);
             this.label_language.TabIndex = 6;
@@ -106,7 +107,7 @@
             // 
             this.label_borrowed.AutoSize = true;
             this.label_borrowed.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_borrowed.Location = new System.Drawing.Point(170, 106);
+            this.label_borrowed.Location = new System.Drawing.Point(170, 115);
             this.label_borrowed.Name = "label_borrowed";
             this.label_borrowed.Size = new System.Drawing.Size(68, 19);
             this.label_borrowed.TabIndex = 7;
@@ -121,11 +122,22 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // label_id
+            // 
+            this.label_id.AutoSize = true;
+            this.label_id.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label_id.Location = new System.Drawing.Point(170, 39);
+            this.label_id.Name = "label_id";
+            this.label_id.Size = new System.Drawing.Size(28, 19);
+            this.label_id.TabIndex = 9;
+            this.label_id.Text = "[id]";
+            // 
             // BookUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.label_id);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_borrowed);
             this.Controls.Add(this.label_language);
@@ -153,5 +165,6 @@
         private Label label_language;
         private Label label_borrowed;
         private PictureBox pictureBox1;
+        private Label label_id;
     }
 }

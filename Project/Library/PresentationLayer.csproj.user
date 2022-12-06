@@ -4,7 +4,19 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="BookUI.cs">
+    <Compile Update="UI_elements\BookUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_elements\BorrowedBookUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_elements\UC_books.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_elements\UC_customers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_elements\CustomerUI.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

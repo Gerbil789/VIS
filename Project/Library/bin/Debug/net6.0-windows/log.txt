@@ -1,0 +1,24 @@
+[06.12.2022 23:50:17] librarian [1] logged in
+[06.12.2022 23:50:23] book[5] returned
+[06.12.2022 23:50:24] book[8] returned
+[06.12.2022 23:50:24] book[1] returned
+[06.12.2022 23:50:30] book[1] borrowed to customer [101]
+[06.12.2022 23:50:41] book[4] borrowed to customer [105]
+[06.12.2022 23:50:42] librarian [1] logged out
+[06.12.2022 23:52:17] librarian [1] logged in
+[06.12.2022 23:52:29] book[8] borrowed to customer [101]
+[06.12.2022 23:52:46] librarian [1] logged out
+[07.12.2022 0:04:27] librarian [1] logged in
+[07.12.2022 0:04:35] book[7] returned
+[07.12.2022 0:04:40] book[7] borrowed to customer [101]
+[07.12.2022 0:04:43] librarian [1] logged out
+[07.12.2022 0:07:49] librarian [1] logged in
+[07.12.2022 0:07:56] book[8] returned
+[07.12.2022 0:09:10] librarian [1] logged in
+[07.12.2022 0:09:17] book[11] returned
+[07.12.2022 0:15:55] librarian [1] logged in
+[07.12.2022 0:16:02] book[7] returned
+[07.12.2022 0:16:10] book[5] borrowed to customer [101]
+[07.12.2022 0:16:13] book[6] borrowed to customer [101]
+[07.12.2022 0:16:17] book[1] returned
+[07.12.2022 0:16:49] librarian [1] logged out
