@@ -12,6 +12,6 @@ Foreign Key Mapping,
 Single Table Inheritance,
 Layer Supertype )
 
-**Project** ( Work In Progress... )
+**Project** ( Library information system )
 
 
